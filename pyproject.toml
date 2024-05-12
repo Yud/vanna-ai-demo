@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-vanna = {extras = ["chromadb", "gemini", "postgres"], version = "^0.5.3"}
+vanna = {extras = ["chromadb", "openai", "postgres"], version = "^0.5.4"}
 kaleido = "0.2.1"
 chromadb = "^0.5.0"
 python-dotenv = "^1.0.1"
