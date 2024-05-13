@@ -14,8 +14,6 @@ class MyConfig:
         path = Path(".")
         ROOT_DIR = path.parent.absolute()
 
-        self.gemini_api_key: str = os.getenv("GEMINI_API_KEY", "")
-        self.gemini_model: str = os.getenv("GEMINI_MODEL", "")
         self.openai_api_key: str = os.getenv("OPENAI_API_KEY", "")
         self.db_host: str = os.getenv("DB_HOST", "localhost")
         self.db_name: str = os.getenv("DB_NAME", "")
