@@ -38,7 +38,7 @@ from vanna_demo.config import my_config
 
 def get_ddl():
     ddl = None
-    ddl_path = f"{my_config.root_dir}/data/schema.sql"
+    ddl_path = f"{my_config.root_dir}/db_data/schema.sql"
 
     with open(ddl_path, 'r') as file:
         ddl = file.read()
